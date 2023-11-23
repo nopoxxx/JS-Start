@@ -77,9 +77,9 @@ input {
     margin: auto;
     box-sizing: border-box;
     border: #f1c40f solid;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(32, 32, 32); !important
     font-size: larger;
-    color: #f1c40f;
+    color: #f1c40f; !important
 }
 
 button[type=submit] {
