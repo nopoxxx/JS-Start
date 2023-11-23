@@ -69,3 +69,37 @@ p {
 a {
     text-decoration: none;
 }
+
+input {
+    display: block;
+    width: 60%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border: #f1c40f solid;
+    background-color: rgb(32, 32, 32);
+    font-size: larger;
+    color: #f1c40f;
+}
+
+button[type=submit] {
+    background-color: rgb(32, 32, 32);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #f1c40f;
+    color: #f1c40f;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+    font-weight: 700;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+button[type=submit]:hover {
+    padding: 20px 40px;
+    transition: .4s;
+}
